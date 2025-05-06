@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Stuff\\Projects\\Bhag_Bantai\\Backend\\Backend.csproj": {}
+    "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Stuff\\Projects\\Bhag_Bantai\\Backend\\Backend.csproj": {
+    "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Stuff\\Projects\\Bhag_Bantai\\Backend\\Backend.csproj",
+        "projectUniqueName": "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Stuff\\Projects\\Bhag_Bantai\\Backend\\Backend.csproj",
+        "projectPath": "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\Amey\\.nuget\\packages\\",
-        "outputPath": "C:\\Stuff\\Projects\\Bhag_Bantai\\Backend\\obj\\",
+        "outputPath": "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -2,6 +2,6 @@
 {
     public class Map
     {
-        public List<Node> Nodes { get; set; }
+        public Dictionary<string, Node> Nodes { get; set; } = new();
     }
 }

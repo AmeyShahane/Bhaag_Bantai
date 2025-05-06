@@ -1,18 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Stuff\\Projects\\Bhag_Bantai\\Backend\\",
+  "WorkspaceRootPath": "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF9D20BF-71E8-4E4A-85EE-28624EBFFEED}|Backend.csproj|c:\\stuff\\projects\\bhag_bantai\\backend\\models\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF9D20BF-71E8-4E4A-85EE-28624EBFFEED}|Backend.csproj|c:\\stuff\\projects\\bhaag_bantai\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF9D20BF-71E8-4E4A-85EE-28624EBFFEED}|Backend.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9D20BF-71E8-4E4A-85EE-28624EBFFEED}|Backend.csproj|c:\\stuff\\projects\\bhaag_bantai\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9D20BF-71E8-4E4A-85EE-28624EBFFEED}|Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9D20BF-71E8-4E4A-85EE-28624EBFFEED}|Backend.csproj|c:\\stuff\\projects\\bhaag_bantai\\backend\\controllers\\mapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9D20BF-71E8-4E4A-85EE-28624EBFFEED}|Backend.csproj|solutionrelative:controllers\\mapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9D20BF-71E8-4E4A-85EE-28624EBFFEED}|Backend.csproj|c:\\stuff\\projects\\bhaag_bantai\\backend\\services\\mapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9D20BF-71E8-4E4A-85EE-28624EBFFEED}|Backend.csproj|solutionrelative:services\\mapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9D20BF-71E8-4E4A-85EE-28624EBFFEED}|Backend.csproj|c:\\stuff\\projects\\bhaag_bantai\\backend\\models\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF9D20BF-71E8-4E4A-85EE-28624EBFFEED}|Backend.csproj|solutionrelative:models\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF9D20BF-71E8-4E4A-85EE-28624EBFFEED}|Backend.csproj|c:\\stuff\\projects\\bhag_bantai\\backend\\models\\map.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{CF9D20BF-71E8-4E4A-85EE-28624EBFFEED}|Backend.csproj|solutionrelative:models\\map.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{CF9D20BF-71E8-4E4A-85EE-28624EBFFEED}|Backend.csproj|c:\\stuff\\projects\\bhaag_bantai\\backend\\models\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9D20BF-71E8-4E4A-85EE-28624EBFFEED}|Backend.csproj|solutionrelative:models\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF9D20BF-71E8-4E4A-85EE-28624EBFFEED}|Backend.csproj|c:\\stuff\\projects\\bhag_bantai\\backend\\models\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF9D20BF-71E8-4E4A-85EE-28624EBFFEED}|Backend.csproj|solutionrelative:models\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF9D20BF-71E8-4E4A-85EE-28624EBFFEED}|Backend.csproj|c:\\stuff\\projects\\bhaag_bantai\\backend\\models\\stations.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CF9D20BF-71E8-4E4A-85EE-28624EBFFEED}|Backend.csproj|solutionrelative:models\\stations.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +38,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Map.txt",
-              "DocumentMoniker": "C:\\Stuff\\Projects\\Bhag_Bantai\\Backend\\Models\\Map.txt",
-              "RelativeDocumentMoniker": "Models\\Map.txt",
-              "ToolTip": "C:\\Stuff\\Projects\\Bhag_Bantai\\Backend\\Models\\Map.txt",
-              "RelativeToolTip": "Models\\Map.txt",
-              "ViewState": "AgIAAMsBAAAAAAAAAAAAANMBAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-06T06:04:16.404Z",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-06T07:32:27.527Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T07:24:04.668Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Map.cs",
-              "DocumentMoniker": "C:\\Stuff\\Projects\\Bhag_Bantai\\Backend\\Models\\Map.cs",
-              "RelativeDocumentMoniker": "Models\\Map.cs",
-              "ToolTip": "C:\\Stuff\\Projects\\Bhag_Bantai\\Backend\\Models\\Map.cs",
-              "RelativeToolTip": "Models\\Map.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "MapController.cs",
+              "DocumentMoniker": "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\Controllers\\MapController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MapController.cs",
+              "ToolTip": "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\Controllers\\MapController.cs",
+              "RelativeToolTip": "Controllers\\MapController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T05:45:35.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T07:23:39.238Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Node.cs",
-              "DocumentMoniker": "C:\\Stuff\\Projects\\Bhag_Bantai\\Backend\\Models\\Node.cs",
-              "RelativeDocumentMoniker": "Models\\Node.cs",
-              "ToolTip": "C:\\Stuff\\Projects\\Bhag_Bantai\\Backend\\Models\\Node.cs",
-              "RelativeToolTip": "Models\\Node.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Map.cs",
+              "DocumentMoniker": "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\Models\\Map.cs",
+              "RelativeDocumentMoniker": "Models\\Map.cs",
+              "ToolTip": "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\Models\\Map.cs",
+              "RelativeToolTip": "Models\\Map.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T04:21:53.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T07:12:19.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Stations.txt",
+              "DocumentMoniker": "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\Models\\Stations.txt",
+              "RelativeDocumentMoniker": "Models\\Stations.txt",
+              "ToolTip": "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\Models\\Stations.txt",
+              "RelativeToolTip": "Models\\Stations.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-06T07:08:57.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MapService.cs",
+              "DocumentMoniker": "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\Services\\MapService.cs",
+              "RelativeDocumentMoniker": "Services\\MapService.cs",
+              "ToolTip": "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\Services\\MapService.cs",
+              "RelativeToolTip": "Services\\MapService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwCEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T06:44:39.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\Models\\Node.cs",
+              "RelativeDocumentMoniker": "Models\\Node.cs",
+              "ToolTip": "C:\\Stuff\\Projects\\Bhaag_Bantai\\Backend\\Models\\Node.cs",
+              "RelativeToolTip": "Models\\Node.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T04:21:53.57Z"
             }
           ]
         }
