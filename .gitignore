@@ -6,6 +6,8 @@
 # Ignore build outputs
 /bin/
 /obj/
+Backend/bin/
+Backend/obj/
 
 # Ignore user-specific files
 *.user
