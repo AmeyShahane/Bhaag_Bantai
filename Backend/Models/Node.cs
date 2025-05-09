@@ -7,10 +7,10 @@ namespace Backend.Models
         public required string Label { get; set; }
         public required int XCoordinate { get; set; }
         public required int YCoordinate { get; set; }
-        public List<string> RikshawConnections { get; set; } = new();
-        public List<string> BusConnections { get; set; } = new();
-        public List<string> LocalConnections { get; set; } = new();
-        public List<string> FerryConnections { get; set; } = new();
+        public List<Node> RikshawConnections { get; set; } = new();
+        public List<Node> BusConnections { get; set; } = new();
+        public List<Node> LocalConnections { get; set; } = new();
+        public List<Node> FerryConnections { get; set; } = new();
 
         public Player PlayerHere { get; set; }
     }

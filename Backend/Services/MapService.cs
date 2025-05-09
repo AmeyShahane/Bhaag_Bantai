@@ -52,23 +52,23 @@ namespace Backend.Services
                     string[] parts = line.Split(' ');
                     if (parts[2].Equals("water")) 
                     {
-                        _map.Nodes[parts[0]].FerryConnections.Add(parts[1]);
-                        _map.Nodes[parts[1]].FerryConnections.Add(parts[0]);
+                        _map.Nodes[parts[0]].FerryConnections.Add(_map.Nodes[parts[1]]);
+                        _map.Nodes[parts[1]].FerryConnections.Add(_map.Nodes[parts[0]]);
                     }
                     else if (parts[2].Equals("underground"))
                     {
-                        _map.Nodes[parts[0]].LocalConnections.Add(parts[1]);
-                        _map.Nodes[parts[1]].LocalConnections.Add(parts[0]);
+                        _map.Nodes[parts[0]].LocalConnections.Add(_map.Nodes[parts[1]]);
+                        _map.Nodes[parts[1]].LocalConnections.Add(_map.Nodes[parts[0]]);
                     }
                     else if (parts[2].Equals("bus"))
                     {
-                        _map.Nodes[parts[0]].BusConnections.Add(parts[1]);
-                        _map.Nodes[parts[1]].BusConnections.Add(parts[0]);
+                        _map.Nodes[parts[0]].BusConnections.Add(_map.Nodes[parts[1]]);
+                        _map.Nodes[parts[1]].BusConnections.Add(_map.Nodes[parts[0]]);
                     }
                     else if (parts[2].Equals("taxi"))
                     {
-                        _map.Nodes[parts[0]].RikshawConnections.Add(parts[1]);
-                        _map.Nodes[parts[1]].RikshawConnections.Add(parts[0]);
+                        _map.Nodes[parts[0]].RikshawConnections.Add(_map.Nodes[parts[1]]);
+                        _map.Nodes[parts[1]].RikshawConnections.Add(_map.Nodes[parts[0]]);
                     }
                 }
             }
