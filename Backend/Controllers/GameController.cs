@@ -40,10 +40,19 @@ namespace Backend.Controllers
         {
             return Ok(_gameService.GetState());
         }
+
         [HttpGet("map")]
         public ActionResult<GameState> GetMap()
         {
             return Ok(_gameService.GetMap());
+        }
+
+        [HttpGet("map-svg")]
+        public IActionResult GetMapSvg()
+        {
+            string svgContent = _gameService.GetMapSvg();
+
+            return Content(svgContent, "image/svg+xml");
         }
     }
 }

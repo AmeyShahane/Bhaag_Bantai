@@ -13,11 +13,20 @@ builder.Services.AddControllers();
                 //});
 builder.Services.AddSingleton<MapService>();
 builder.Services.AddSingleton<GameService>();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp", policy =>
+        policy.WithOrigins("http://localhost:3000") // React dev server
+              .AllowAnyHeader()
+              .AllowAnyMethod());
+});
+
+
 
 
 var app = builder.Build();
 _ = app.Services.GetRequiredService<GameService>();
-
+app.UseCors("AllowReactApp");
 
 //app.UseHttpsRedirection();
 
