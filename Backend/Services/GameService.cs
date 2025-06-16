@@ -94,6 +94,18 @@ namespace Backend.Services
             };
         }
 
+        public string GetMapSVG()
+        {
+            var svgPath = Path.Combine(Directory.GetCurrentDirectory(), "Models", "Map.svg");
+
+            if (!File.Exists(svgPath))
+            {
+                throw new FileNotFoundException("SVG file not found at: " + svgPath);
+            }
+
+            return File.ReadAllText(svgPath);
+        }
+
 
     }
 }

@@ -1,4 +1,5 @@
-﻿using Backend.Models;
+﻿using Backend.DTO;
+using Backend.Models;
 using Backend.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -36,15 +37,22 @@ namespace Backend.Controllers
         }
 
         [HttpGet("state")]
-        public ActionResult<GameState> GetState()
+        public ActionResult<GameStateDto> GetState()
         {
             return Ok(_gameService.GetState());
         }
 
         [HttpGet("map")]
-        public ActionResult<GameState> GetMap()
+        public ActionResult<MapDTO> GetMap()
         {
             return Ok(_gameService.GetMap());
+        }
+
+        [HttpGet("mapSVG")]
+        public IActionResult GetMapSVG()
+        {
+            string svgContent = _gameService.GetMapSVG();
+            return Content(svgContent, "image/svg+xml");
         }
     }
 }
