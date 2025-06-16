@@ -67,6 +67,7 @@ namespace Backend.Services
             };
 
         }
+
         public MapDTO GetMap()
         {
             return new MapDTO
@@ -74,20 +75,20 @@ namespace Backend.Services
                 Nodes = GameState.Map.Nodes.ToDictionary(
                 kvp => kvp.Key,
                 kvp =>
+                {
+                    var node = kvp.Value;
+                    return new NodeDto
                     {
-                        var node = kvp.Value;
-                        return new NodeDto
-                        {
-                            Label = node.Label,
-                            XCoordinate = node.XCoordinate,
-                            YCoordinate = node.YCoordinate,
-                            RikshawConnections = node.RikshawConnections.Select(n => n.Label).ToList(),
-                            BusConnections = node.BusConnections.Select(n => n.Label).ToList(),
-                            LocalConnections = node.LocalConnections.Select(n => n.Label).ToList(),
-                            FerryConnections = node.FerryConnections.Select(n => n.Label).ToList(),
-                            PlayerNameHere = node.PlayerHere?.PlayerName
-                        };
-                    }
+                        Label = node.Label,
+                        XCoordinate = node.XCoordinate,
+                        YCoordinate = node.YCoordinate,
+                        RikshawConnections = node.RikshawConnections.Select(n => n.Label).ToList(),
+                        BusConnections = node.BusConnections.Select(n => n.Label).ToList(),
+                        LocalConnections = node.LocalConnections.Select(n => n.Label).ToList(),
+                        FerryConnections = node.FerryConnections.Select(n => n.Label).ToList(),
+                        PlayerNameHere = node.PlayerHere?.PlayerName
+                    };
+                }
                 )
 
             };
